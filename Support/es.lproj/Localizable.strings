@@ -1,0 +1,207 @@
+/* Español */
+
+/* Menu bar */
+"Open Panel" = "Abrir panel";
+"Settings…" = "Ajustes…";
+"Quit Bowerbird" = "Salir de Bowerbird";
+"Accessibility Permission Needed…" = "Se necesita permiso de accesibilidad…";
+
+/* Panel */
+"Search clipboard history…" = "Buscar en el historial…";
+"Enter only copies. Grant Accessibility to paste." = "Para pegar se necesita acceso de Accesibilidad. Por ahora, los elementos solo se copian.";
+"Paste" = "Pegar";
+"Copy" = "Copiar";
+"Pin" = "Fijar";
+"Delete" = "Eliminar";
+"Pinned" = "Fijados";
+"Today" = "Hoy";
+"Yesterday" = "Ayer";
+"File no longer exists" = "Archivo no encontrado";
+"Image: %@×%@ (%@)" = "Imagen: %@×%@ (%@)";
+"File: %@" = "Archivo: %@";
+"File: %@ and %lld more" = "Archivo: %@ y %lld más";
+
+/* The two lines of small print in the preview's bottom-right corner */
+"Copied Today %@" = "Copiado hoy: %@";
+"Copied %@" = "Copiado el %@";
+
+/* Permissions */
+"Allow it and this goes into %@" = "Al permitirlo, esto se pegará en %@";
+"Allow it and this goes into your last app" = "Al permitirlo, esto se pegará en la app anterior";
+"It is copied already — you can switch back and press ⌘V yourself." = "Ya está copiado: puedes volver a la app anterior y pulsar ⌘V.";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "Eso requiere Accesibilidad: solo se usa para enviar ⌘V, nunca para leer tus pulsaciones de teclas.";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "¿Bowerbird no aparece en la lista? Muéstralo en el Finder y arrástralo a la lista.";
+"Allow…" = "Permitir…";
+"Not Now" = "Ahora no";
+"Bowerbird not in the list?" = "¿Bowerbird no aparece en la lista?";
+"Show it in Finder, then drag it into the list." = "Muéstralo en el Finder y arrástralo a la lista.";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "Bowerbird solo lo usa para enviar ⌘V, nunca para leer tus pulsaciones de teclas.";
+
+/* Settings */
+"Text Size" = "Tamaño del texto";
+"Standard" = "Estándar";
+"Extra Large" = "Muy grande";
+"Bowerbird Settings" = "Ajustes de Bowerbird";
+"General" = "General";
+"History" = "Historial";
+"About" = "Acerca de";
+"Open Panel Shortcut" = "Abrir el panel";
+"Launch at Login" = "Abrir al iniciar sesión";
+"Panel Size" = "Tamaño del panel";
+"Shows about %lld rows" = "Muestra unas %lld filas";
+"Small" = "Pequeño";
+"Medium" = "Mediano";
+"Large" = "Grande";
+"Appearance" = "Apariencia";
+"Light" = "Claro";
+"Dark" = "Oscuro";
+"Language" = "Idioma";
+"Follow System" = "Sistema";
+"Accessibility Permission" = "Permiso de accesibilidad";
+"Not granted. Enter only copies to the clipboard." = "No permitido. Los elementos solo se pueden copiar al portapapeles.";
+"Open System Settings" = "Abrir Ajustes del Sistema";
+"Clear History" = "Borrar historial";
+"Clear…" = "Borrar…";
+"Cancel" = "Cancelar";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "Lo que copies en estas apps no se registra. Lo marcado por gestores de contraseñas siempre se omite.";
+"Remove" = "Quitar";
+"Not installed" = "No instalada";
+"Version" = "Versión";
+"Data Folder" = "Carpeta de datos";
+"Show in Finder" = "Mostrar en el Finder";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "No se ha podido cargar el historial del portapapeles";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbird ha creado un historial nuevo. El archivo de datos original se ha renombrado como history.sqlite.broken.";
+"Clipboard history database could not be opened" = "No se pudo abrir el historial del portapapeles";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "Es posible que ya haya otra copia de Bowerbird en ejecución. Ciérrala y vuelve a abrir Bowerbird.";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "Comprueba que el disco tenga espacio libre y que Bowerbird pueda escribir en su carpeta de Application Support, y vuelve a abrir Bowerbird.";
+
+/* About */
+"Source Code" = "Código fuente";
+"Open on GitHub" = "Abrir en GitHub";
+"Unpin" = "Dejar de fijar";
+"Pin or Unpin" = "Fijar o dejar de fijar";
+"Delete Item" = "Eliminar elemento";
+"Press keys…" = "Pulsa las teclas…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "Haz clic y pulsa las teclas nuevas (las letras necesitan ⌘, ⌥ o ⌃). Esc cancela, ⌫ quita el atajo.";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "Haz clic y pulsa una combinación con ⌘, ⌥ o ⌃. Esc cancela, ⌫ quita el atajo.";
+"Restore Defaults" = "Restaurar atajos predeterminados";
+"Paste as Plain Text" = "Pegar como texto sin formato";
+
+/* Paste format picker */
+"Rich Text" = "Texto enriquecido";
+"Web" = "Web";
+"Plain Text" = "Texto sin formato";
+"Image" = "Imagen";
+"PDF" = "PDF";
+"File" = "Archivo";
+"Path" = "Ruta";
+"Formatted" = "Con formato";
+"Text in Image" = "Texto de la imagen";
+"Format" = "Formato";
+"Reveal in Finder" = "Mostrar en el Finder";
+"Next Paste Format" = "Cambiar formato";
+"%@ only · %@" = "Solo %@ · %@";
+
+/* Pause, capture switches, menu bar icon */
+"Pause Recording" = "Pausar el registro";
+"Paused" = "En pausa";
+"Menu Bar Icon" = "Icono de la barra de menús";
+"Clipboard" = "Portapapeles";
+"Scissors" = "Tijeras";
+"Paperclip" = "Clip";
+"Tray" = "Bandeja";
+"Paste Path" = "Pegar ruta";
+"Paste Text in Image" = "Pegar texto de la imagen";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "Reanudar el registro";
+"Text" = "Texto";
+"Images" = "Imágenes";
+"Files" = "Archivos";
+"Recognizing…" = "Reconociendo…";
+"No items" = "Sin elementos";
+"Clear on Quit" = "Borrar al salir";
+"Nothing is left behind after you quit" = "Al salir, borra el historial y el portapapeles del sistema. Los fijados se conservan";
+"Panel Appears" = "Posición del panel";
+"At the Pointer" = "En el puntero";
+"Screen Center" = "Centro";
+"%lld lines" = "%lld líneas";
+"%lld chars" = "%lld caracteres";
+
+/* Three retention periods, move to top when used, other devices */
+"Only the path is stored, so this costs nothing" = "Guarda la ubicación del archivo, no el archivo";
+"Save From Other Devices" = "Registrar lo copiado en tu iPhone o iPad";
+
+/* Empty state, paused bar, section headers, add app */
+"Paused. New copies are not being saved." = "En pausa. Las copias nuevas no se registran.";
+"Nothing here yet" = "Aún no hay nada";
+"Copy something and it will show up here" = "Copia algo y aparecerá aquí";
+"No matches for “%@”" = "Nada coincide con «%@»";
+"Choose…" = "Elegir…";
+
+/* Ignore patterns, Return action, hint bar switch, close matches */
+"Ignore" = "Ignorar";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "El texto o las rutas de archivo que coincidan con alguno de estos patrones no se guardan. Las expresiones regulares distinguen entre mayúsculas y minúsculas; antepón (?i) para ignorar esta distinción.";
+"No patterns yet" = "Aún no hay patrones";
+"Add" = "Añadir";
+"Not a valid pattern, so it is not applied" = "No es un patrón válido, así que no se aplica";
+"Close matches" = "Resultados similares";
+"Add a pattern…" = "Añadir un patrón…";
+
+/* One row per type, merged clear options */
+"Last 5 minutes" = "Últimos 5 minutos";
+"Last 15 minutes" = "Últimos 15 minutos";
+"Last hour" = "Última hora";
+
+/* Panel page, retention pop-up, paused state, clear confirmation */
+"Panel" = "Panel";
+"Space" = "Espacio";
+"Keep %lld days" = "%lld días";
+"Pinned items are kept. This cannot be undone." = "Lo fijado se conserva. Esto no se puede deshacer.";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "Atajos";
+"Recognize Text in Images" = "Reconocer el texto de las imágenes";
+
+/* Removable shortcuts */
+"None" = "Ninguno";
+"Remove Shortcut" = "Quitar atajo";
+"Recording" = "Registro activo";
+"Pause" = "Pausar";
+"Resume" = "Reanudar";
+
+/* Main menu (shown only while the Settings window is open) */
+"About Bowerbird" = "Acerca de Bowerbird";
+"Hide Bowerbird" = "Ocultar Bowerbird";
+"Edit" = "Edición";
+"Undo" = "Deshacer";
+"Redo" = "Rehacer";
+"Cut" = "Cortar";
+"Select All" = "Seleccionar todo";
+"Window" = "Ventana";
+"Close" = "Cerrar";
+"Minimize" = "Minimizar";
+
+"Show shortcut hints at the bottom of the panel" = "Mostrar indicaciones de atajos en la parte inferior del panel";
+"Move used items to the top" = "Subir los elementos usados al principio";
+"All" = "Todo";
+"Everything" = "Todo";
+"Clear Pinned Items" = "Borrar elementos fijados";
+"Pinned: %lld" = "Fijados: %lld";
+"No pinned items" = "No hay elementos fijados";
+"Clear all pinned items?" = "¿Borrar todos los elementos fijados?";
+"Clear Pinned" = "Borrar fijados";
+"This cannot be undone." = "Esta acción no se puede deshacer.";
+"Clear all clipboard history?" = "¿Borrar todo el historial?";
+"Clear Recent" = "Borrar historial reciente";
+"Clear Everything" = "Borrar todo";
+"Clear everything copied in the last 5 minutes?" = "¿Borrar lo copiado en los últimos 5 minutos?";
+"Clear everything copied in the last 15 minutes?" = "¿Borrar lo copiado en los últimos 15 minutos?";
+"Clear everything copied in the last hour?" = "¿Borrar lo copiado en la última hora?";
+"Ignored Apps" = "Apps ignoradas";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "No se pudo borrar todo el historial";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "No se pudieron eliminar algunos registros o archivos. Comprueba el espacio libre en disco y los permisos de las carpetas, e inténtalo de nuevo.";

@@ -1,0 +1,209 @@
+/* zh-Hant */
+
+/* Source language. Keys are the English strings themselves. */
+
+/* Menu bar */
+"Open Panel" = "打開面板";
+"Settings…" = "設定…";
+"Quit Bowerbird" = "結束 Bowerbird";
+"Accessibility Permission Needed…" = "需要輔助使用權限…";
+
+/* Panel */
+"Search clipboard history…" = "搜尋剪貼板記錄…";
+"Enter only copies. Grant Accessibility to paste." = "貼上需要「輔助使用」權限，目前只會拷貝到剪貼板";
+"Paste" = "貼上";
+"Copy" = "拷貝";
+"Pin" = "固定";
+"Delete" = "刪除";
+"Pinned" = "已固定";
+"Today" = "今天";
+"Yesterday" = "昨天";
+"File no longer exists" = "找不到檔案";
+"Image: %@×%@ (%@)" = "影像：%@×%@（%@）";
+"File: %@" = "檔案：%@";
+"File: %@ and %lld more" = "檔案：%@ 及另外 %lld 個";
+
+/* Two lines of small text at the bottom right of the preview */
+"Copied Today %@" = "今天 %@ 複製";
+"Copied %@" = "%@ 複製";
+
+/* Permissions */
+"Allow it and this goes into %@" = "允許後，這項內容會直接貼到「%@」";
+"Allow it and this goes into your last app" = "允許後，這項內容會直接貼到剛才使用的 App";
+"It is copied already — you can switch back and press ⌘V yourself." = "內容已拷貝，你也可以切回去自行按下 ⌘V。";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "這需要「輔助使用」權限——Bowerbird 只會用它送出 ⌘V，絕不讀取你的按鍵。";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "列表裡沒有 Bowerbird？在 Finder 中顯示，再把它拖進列表。";
+"Allow…" = "允許…";
+"Not Now" = "暫不開啟";
+"Bowerbird not in the list?" = "列表裡沒有 Bowerbird？";
+"Show it in Finder, then drag it into the list." = "在 Finder 中顯示，然後把它拖進列表。";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "Bowerbird 只會用它送出 ⌘V，絕不讀取你的按鍵。";
+
+/* Settings */
+"Text Size" = "字體大小";
+"Standard" = "標準";
+"Extra Large" = "特大";
+"Bowerbird Settings" = "Bowerbird 設定";
+"General" = "一般";
+"History" = "記錄";
+"About" = "關於";
+"Open Panel Shortcut" = "打開面板";
+"Launch at Login" = "開機自動啟動";
+"Panel Size" = "面板大小";
+"Shows about %lld rows" = "大約顯示 %lld 列";
+"Small" = "小";
+"Medium" = "中";
+"Large" = "大";
+"Appearance" = "外觀";
+"Light" = "淺色";
+"Dark" = "深色";
+"Language" = "語言";
+"Follow System" = "跟隨系統";
+"Accessibility Permission" = "輔助使用權限";
+"Not granted. Enter only copies to the clipboard." = "未允許，只能拷貝到剪貼板";
+"Open System Settings" = "打開系統設定";
+"Clear History" = "清除記錄";
+"Clear…" = "清除…";
+"Cancel" = "取消";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "不記錄在以下 App 中複製的內容，也不記錄密碼管理工具標示為敏感的內容。";
+"Remove" = "移除";
+"Not installed" = "尚未安裝";
+"Version" = "版本";
+"Data Folder" = "資料檔案夾";
+"Show in Finder" = "在 Finder 中顯示";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "無法載入剪貼板記錄";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbird 已重新開始記錄剪貼板內容。原始資料檔案已重新命名為 history.sqlite.broken。";
+"Clipboard history database could not be opened" = "無法打開剪貼板記錄";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "可能已經有另一個 Bowerbird 正在執行。請先結束它，再重新開啟 Bowerbird。";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "請確認磁碟還有空間，並且 Bowerbird 能寫入它在「Application Support」中的檔案夾，然後重新開啟 Bowerbird。";
+
+/* About */
+"Source Code" = "原始碼";
+"Open on GitHub" = "在 GitHub 上檢視";
+"Unpin" = "取消固定";
+"Pin or Unpin" = "固定或取消固定";
+"Delete Item" = "刪除記錄";
+"Press keys…" = "請按鍵…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "按一下，再按新的按鍵（字母要帶 ⌘、⌥ 或 ⌃）。Esc 取消，⌫ 移除這個快速鍵。";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "按一下，再按含 ⌘、⌥ 或 ⌃ 的組合鍵。Esc 取消，⌫ 移除這個快速鍵。";
+"Restore Defaults" = "回復預設快速鍵";
+"Paste as Plain Text" = "貼上為純文字";
+
+/* Paste format picker */
+"Rich Text" = "格式化文字";
+"Web" = "網頁";
+"Plain Text" = "純文字";
+"Image" = "影像";
+"PDF" = "PDF";
+"File" = "檔案";
+"Path" = "路徑";
+"Formatted" = "帶格式";
+"Text in Image" = "影像文字";
+"Format" = "格式";
+"Reveal in Finder" = "在 Finder 中顯示";
+"Next Paste Format" = "切換格式";
+"%@ only · %@" = "僅%@ · %@";
+
+/* Pause, capture toggles, menu bar icon */
+"Pause Recording" = "暫停記錄";
+"Paused" = "已暫停";
+"Menu Bar Icon" = "選單列圖像";
+"Clipboard" = "剪貼板";
+"Scissors" = "剪刀";
+"Paperclip" = "迴紋針";
+"Tray" = "收納盒";
+"Paste Path" = "貼上路徑";
+"Paste Text in Image" = "貼上影像文字";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "繼續記錄";
+"Text" = "文字";
+"Images" = "影像";
+"Files" = "檔案";
+"Recognizing…" = "正在辨識…";
+"No items" = "沒有記錄";
+"Clear on Quit" = "結束時清除";
+"Nothing is left behind after you quit" = "結束時清除歷史記錄和系統剪貼板，已固定的保留";
+"Panel Appears" = "面板位置";
+"At the Pointer" = "指標位置";
+"Screen Center" = "螢幕中央";
+"%lld lines" = "%lld 行";
+"%lld chars" = "%lld 個字元";
+
+/* Three retention tiers, move used items to top, other devices */
+"Only the path is stored, so this costs nothing" = "只儲存檔案位置，不儲存檔案本身";
+"Save From Other Devices" = "記錄 iPhone、iPad 上複製的內容";
+
+/* Empty state, pause bar, section titles, add app */
+"Paused. New copies are not being saved." = "已暫停記錄，新複製的內容不會被記錄";
+"Nothing here yet" = "尚無記錄";
+"Copy something and it will show up here" = "複製的內容會顯示在這裡";
+"No matches for “%@”" = "找不到符合「%@」的記錄";
+"Choose…" = "選擇…";
+
+/* Ignore regex, Return action, hint bar toggle, similar results */
+"Ignore" = "忽略";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "不記錄符合任一規則的文字或檔案路徑。規則使用規則運算式，區分大小寫；在開頭加上 (?i) 可忽略大小寫。";
+"No patterns yet" = "尚無規則";
+"Add" = "加入";
+"Not a valid pattern, so it is not applied" = "規則運算式無效，此規則未啟用";
+"Close matches" = "相近結果";
+"Add a pattern…" = "加入規則…";
+
+/* One row per kind, merged clearing */
+"Last 5 minutes" = "最近 5 分鐘";
+"Last 15 minutes" = "最近 15 分鐘";
+"Last hour" = "最近 1 小時";
+
+/* Panel page, retention dropdown, pause status, clear confirmation */
+"Panel" = "面板";
+"Space" = "空白鍵";
+"Keep %lld days" = "保留 %lld 天";
+"Pinned items are kept. This cannot be undone." = "已固定的記錄會保留。此操作無法還原。";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "快速鍵";
+"Recognize Text in Images" = "辨識影像中的文字";
+
+/* Shortcuts can be removed */
+"None" = "無";
+"Remove Shortcut" = "移除快速鍵";
+"Recording" = "記錄中";
+"Pause" = "暫停";
+"Resume" = "繼續";
+
+/* Main menu (shown only while the Settings window is open) */
+"About Bowerbird" = "關於 Bowerbird";
+"Hide Bowerbird" = "隱藏 Bowerbird";
+"Edit" = "編輯";
+"Undo" = "還原";
+"Redo" = "重做";
+"Cut" = "剪下";
+"Select All" = "全選";
+"Window" = "視窗";
+"Close" = "關閉";
+"Minimize" = "縮到最小";
+
+"Show shortcut hints at the bottom of the panel" = "底部顯示快速鍵提示";
+"Move used items to the top" = "使用過的記錄移到最上方";
+"All" = "全部";
+"Everything" = "全部記錄";
+"Clear Pinned Items" = "清除已固定的記錄";
+"Pinned: %lld" = "已固定 %lld 筆";
+"No pinned items" = "沒有已固定的記錄";
+"Clear all pinned items?" = "清除全部已固定的記錄？";
+"Clear Pinned" = "清除已固定";
+"This cannot be undone." = "此操作無法復原。";
+"Clear all clipboard history?" = "清除全部歷史記錄？";
+"Clear Recent" = "清除最近記錄";
+"Clear Everything" = "清除全部記錄";
+"Clear everything copied in the last 5 minutes?" = "要清除最近 5 分鐘的記錄嗎？";
+"Clear everything copied in the last 15 minutes?" = "要清除最近 15 分鐘的記錄嗎？";
+"Clear everything copied in the last hour?" = "要清除最近 1 小時的記錄嗎？";
+"Ignored Apps" = "忽略的 App";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "無法完全清除歷史記錄";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "部分歷史記錄或檔案無法刪除。請檢查磁碟剩餘空間和資料夾權限，然後再試一次。";

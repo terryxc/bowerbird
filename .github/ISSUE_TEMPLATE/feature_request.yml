@@ -1,0 +1,16 @@
+name: Feature request
+description: Something the app should do and does not.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you are trying to do
+      description: The situation, not the solution. What were you copying, where did it need to go, what got in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: Optional. If another clipboard manager already does it, name it.

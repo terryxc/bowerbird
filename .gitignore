@@ -1,0 +1,7 @@
+.build/
+build/
+*.xcodeproj
+.swiftpm/
+.DS_Store
+# Local design explorations; the production icon source lives in Support/Bowerbird.png.
+/docs/brand/icon-concepts-*/

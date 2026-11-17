@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: FAQ
+    url: https://github.com/terryxc/bowerbird/blob/main/docs/faq.md
+    about: First launch blocked, Accessibility, where the data is, what is never recorded, screenshots not showing up.
+  - name: Security problem
+    url: https://github.com/terryxc/bowerbird/blob/main/SECURITY.md
+    about: Report privately. Please don't open a public issue for it.

@@ -1,0 +1,207 @@
+/* Français */
+
+/* Menu bar */
+"Open Panel" = "Ouvrir le panneau";
+"Settings…" = "Réglages…";
+"Quit Bowerbird" = "Quitter Bowerbird";
+"Accessibility Permission Needed…" = "Autorisation d’accessibilité requise…";
+
+/* Panel */
+"Search clipboard history…" = "Rechercher dans l’historique…";
+"Enter only copies. Grant Accessibility to paste." = "Pour coller, l’accès Accessibilité est nécessaire. Pour l’instant, les éléments sont seulement copiés.";
+"Paste" = "Coller";
+"Copy" = "Copier";
+"Pin" = "Épingler";
+"Delete" = "Supprimer";
+"Pinned" = "Épinglés";
+"Today" = "Aujourd’hui";
+"Yesterday" = "Hier";
+"File no longer exists" = "Fichier introuvable";
+"Image: %@×%@ (%@)" = "Image : %@×%@ (%@)";
+"File: %@" = "Fichier : %@";
+"File: %@ and %lld more" = "Fichier : %@ et %lld autres";
+
+/* The two small lines in the preview's bottom-right corner */
+"Copied Today %@" = "Copié aujourd’hui à %@";
+"Copied %@" = "Copié le %@";
+
+/* Permissions */
+"Allow it and this goes into %@" = "Autorisez l’accès et cet élément sera collé directement dans %@";
+"Allow it and this goes into your last app" = "Autorisez l’accès et cet élément sera collé directement dans l’app d’où vous venez";
+"It is copied already — you can switch back and press ⌘V yourself." = "Le contenu est déjà copié : revenez à l’app précédente et appuyez sur ⌘V.";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "Cela nécessite l’autorisation Accessibilité, que Bowerbird utilise uniquement pour envoyer ⌘V, jamais pour lire vos frappes.";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "Bowerbird absent de la liste ? Affichez-le dans le Finder, puis glissez-le dans la liste.";
+"Allow…" = "Autoriser…";
+"Not Now" = "Pas maintenant";
+"Bowerbird not in the list?" = "Bowerbird absent de la liste ?";
+"Show it in Finder, then drag it into the list." = "Affichez-le dans le Finder, puis glissez-le dans la liste.";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "Bowerbird l’utilise uniquement pour envoyer ⌘V, jamais pour lire vos frappes.";
+
+/* Settings */
+"Text Size" = "Taille du texte";
+"Standard" = "Standard";
+"Extra Large" = "Très grande";
+"Bowerbird Settings" = "Réglages de Bowerbird";
+"General" = "Général";
+"History" = "Historique";
+"About" = "À propos";
+"Open Panel Shortcut" = "Ouvrir le panneau";
+"Launch at Login" = "Lancer à l’ouverture de session";
+"Panel Size" = "Taille du panneau";
+"Shows about %lld rows" = "Affiche environ %lld lignes";
+"Small" = "Petit";
+"Medium" = "Moyen";
+"Large" = "Grand";
+"Appearance" = "Apparence";
+"Light" = "Clair";
+"Dark" = "Sombre";
+"Language" = "Langue";
+"Follow System" = "Système";
+"Accessibility Permission" = "Autorisation d’accessibilité";
+"Not granted. Enter only copies to the clipboard." = "Non autorisée. Les éléments peuvent seulement être copiés dans le presse-papiers.";
+"Open System Settings" = "Ouvrir Réglages Système";
+"Clear History" = "Effacer l’historique";
+"Clear…" = "Effacer…";
+"Cancel" = "Annuler";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "Ce que vous copiez dans ces apps n’est pas enregistré. Le contenu marqué par les gestionnaires de mots de passe est toujours ignoré.";
+"Remove" = "Retirer";
+"Not installed" = "Non installée";
+"Version" = "Version";
+"Data Folder" = "Dossier de données";
+"Show in Finder" = "Afficher dans le Finder";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "Impossible de charger l’historique du presse-papiers";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbird a créé un nouvel historique. Le fichier de données d’origine a été renommé history.sqlite.broken.";
+"Clipboard history database could not be opened" = "Impossible d’ouvrir l’historique du presse-papiers";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "Une autre copie de Bowerbird est peut-être déjà en cours d’exécution. Quittez-la, puis rouvrez Bowerbird.";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "Vérifiez qu’il reste de l’espace sur le disque et que Bowerbird peut écrire dans son dossier d’Application Support, puis rouvrez Bowerbird.";
+
+/* About */
+"Source Code" = "Code source";
+"Open on GitHub" = "Ouvrir sur GitHub";
+"Unpin" = "Désépingler";
+"Pin or Unpin" = "Épingler ou désépingler";
+"Delete Item" = "Supprimer l’élément";
+"Press keys…" = "Appuyez sur les touches…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "Cliquez, puis appuyez sur les nouvelles touches (les lettres nécessitent ⌘, ⌥ ou ⌃). Échap annule, ⌫ retire le raccourci.";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "Cliquez, puis appuyez sur une combinaison avec ⌘, ⌥ ou ⌃. Échap annule, ⌫ retire le raccourci.";
+"Restore Defaults" = "Rétablir les raccourcis par défaut";
+"Paste as Plain Text" = "Coller en texte brut";
+
+/* Paste format choice */
+"Rich Text" = "Texte enrichi";
+"Web" = "Web";
+"Plain Text" = "Texte brut";
+"Image" = "Image";
+"PDF" = "PDF";
+"File" = "Fichier";
+"Path" = "Chemin";
+"Formatted" = "Mis en forme";
+"Text in Image" = "Texte de l’image";
+"Format" = "Format";
+"Reveal in Finder" = "Afficher dans le Finder";
+"Next Paste Format" = "Changer de format";
+"%@ only · %@" = "%@ uniquement · %@";
+
+/* Pause, capture toggles, menu bar icon */
+"Pause Recording" = "Suspendre l’enregistrement";
+"Paused" = "En pause";
+"Menu Bar Icon" = "Icône de la barre des menus";
+"Clipboard" = "Presse-papiers";
+"Scissors" = "Ciseaux";
+"Paperclip" = "Trombone";
+"Tray" = "Bac";
+"Paste Path" = "Coller le chemin";
+"Paste Text in Image" = "Coller le texte de l’image";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "Reprendre l’enregistrement";
+"Text" = "Texte";
+"Images" = "Images";
+"Files" = "Fichiers";
+"Recognizing…" = "Reconnaissance…";
+"No items" = "Aucun élément";
+"Clear on Quit" = "Effacer en quittant";
+"Nothing is left behind after you quit" = "À la fermeture, efface l’historique et le presse-papiers système. Les épinglés sont conservés";
+"Panel Appears" = "Position du panneau";
+"At the Pointer" = "Au pointeur";
+"Screen Center" = "Au centre";
+"%lld lines" = "%lld lignes";
+"%lld chars" = "%lld caractères";
+
+/* Three retention periods, move to top when used, other devices */
+"Only the path is stored, so this costs nothing" = "Enregistre l’emplacement du fichier, pas le fichier";
+"Save From Other Devices" = "Enregistrer ce que vous copiez sur iPhone ou iPad";
+
+/* Empty state, pause bar, section titles, add app */
+"Paused. New copies are not being saved." = "En pause. Les nouvelles copies ne sont pas enregistrées.";
+"Nothing here yet" = "Rien pour l’instant";
+"Copy something and it will show up here" = "Copiez quelque chose, il apparaîtra ici";
+"No matches for “%@”" = "Aucun résultat pour « %@ »";
+"Choose…" = "Choisir…";
+
+/* Ignore regex, Return action, hint bar toggle, similar results */
+"Ignore" = "Ignorer";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "Le texte ou les chemins de fichiers correspondant à l’un de ces motifs ne sont pas enregistrés. Les expressions régulières sont sensibles à la casse ; commencez par (?i) pour l’ignorer.";
+"No patterns yet" = "Aucun motif pour l’instant";
+"Add" = "Ajouter";
+"Not a valid pattern, so it is not applied" = "Motif invalide, donc non appliqué";
+"Close matches" = "Résultats similaires";
+"Add a pattern…" = "Ajouter un motif…";
+
+/* One row per kind, merged clear */
+"Last 5 minutes" = "5 dernières minutes";
+"Last 15 minutes" = "15 dernières minutes";
+"Last hour" = "Dernière heure";
+
+/* Panel page, retention pop-up, pause state, clear confirmation */
+"Panel" = "Panneau";
+"Space" = "Espace";
+"Keep %lld days" = "%lld jours";
+"Pinned items are kept. This cannot be undone." = "Les éléments épinglés sont conservés. Cette action est irréversible.";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "Raccourcis";
+"Recognize Text in Images" = "Reconnaître le texte des images";
+
+/* Shortcut can be removed */
+"None" = "Aucun";
+"Remove Shortcut" = "Retirer le raccourci";
+"Recording" = "Enregistrement en cours";
+"Pause" = "Pause";
+"Resume" = "Reprendre";
+
+/* Main menu (shown only while the settings window is open) */
+"About Bowerbird" = "À propos de Bowerbird";
+"Hide Bowerbird" = "Masquer Bowerbird";
+"Edit" = "Édition";
+"Undo" = "Annuler";
+"Redo" = "Rétablir";
+"Cut" = "Couper";
+"Select All" = "Tout sélectionner";
+"Window" = "Fenêtre";
+"Close" = "Fermer";
+"Minimize" = "Placer dans le Dock";
+
+"Show shortcut hints at the bottom of the panel" = "Afficher les indications de raccourcis en bas du panneau";
+"Move used items to the top" = "Remonter les éléments utilisés en haut de la liste";
+"All" = "Tout";
+"Everything" = "Tout";
+"Clear Pinned Items" = "Effacer les éléments épinglés";
+"Pinned: %lld" = "Épinglés : %lld";
+"No pinned items" = "Aucun élément épinglé";
+"Clear all pinned items?" = "Effacer tous les éléments épinglés ?";
+"Clear Pinned" = "Effacer les épinglés";
+"This cannot be undone." = "Cette action est irréversible.";
+"Clear all clipboard history?" = "Effacer tout l’historique ?";
+"Clear Recent" = "Effacer l’historique récent";
+"Clear Everything" = "Tout effacer";
+"Clear everything copied in the last 5 minutes?" = "Effacer l’historique des 5 dernières minutes ?";
+"Clear everything copied in the last 15 minutes?" = "Effacer l’historique des 15 dernières minutes ?";
+"Clear everything copied in the last hour?" = "Effacer l’historique de la dernière heure ?";
+"Ignored Apps" = "Apps ignorées";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "L’historique n’a pas pu être entièrement effacé";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "Certaines entrées ou certains fichiers n’ont pas pu être supprimés. Vérifiez l’espace disque disponible et les autorisations des dossiers, puis réessayez.";

@@ -1,0 +1,209 @@
+/* ru */
+
+/* Source language. Keys are the English strings themselves. */
+
+/* Menu bar */
+"Open Panel" = "Открыть панель";
+"Settings…" = "Настройки…";
+"Quit Bowerbird" = "Завершить Bowerbird";
+"Accessibility Permission Needed…" = "Требуется разрешение на Универсальный доступ…";
+
+/* Panel */
+"Search clipboard history…" = "Поиск в истории буфера обмена…";
+"Enter only copies. Grant Accessibility to paste." = "Для вставки нужно разрешение на Универсальный доступ. Пока записи только копируются.";
+"Paste" = "Вставить";
+"Copy" = "Скопировать";
+"Pin" = "Закрепить";
+"Delete" = "Удалить";
+"Pinned" = "Закрепленные";
+"Today" = "Сегодня";
+"Yesterday" = "Вчера";
+"File no longer exists" = "Файл не найден";
+"Image: %@×%@ (%@)" = "Изображение: %@×%@ (%@)";
+"File: %@" = "Файл: %@";
+"File: %@ and %lld more" = "Файл: %@ и еще %lld";
+
+/* Two lines of small text at the bottom-right of the preview */
+"Copied Today %@" = "Скопировано сегодня в %@";
+"Copied %@" = "Скопировано %@";
+
+/* Permissions */
+"Allow it and this goes into %@" = "Разрешите — и это вставится прямо в %@";
+"Allow it and this goes into your last app" = "Разрешите — и содержимое сразу вставится в предыдущее приложение";
+"It is copied already — you can switch back and press ⌘V yourself." = "Содержимое уже скопировано — вернитесь в приложение и нажмите ⌘V вручную.";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "Для этого нужен Универсальный доступ — только чтобы имитировать нажатие ⌘V, а не считывать нажатия клавиш.";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "Bowerbird нет в списке? Покажите его в Finder и перетащите в список.";
+"Allow…" = "Разрешить…";
+"Not Now" = "Не сейчас";
+"Bowerbird not in the list?" = "Bowerbird нет в списке?";
+"Show it in Finder, then drag it into the list." = "Покажите его в Finder и перетащите в список.";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "Bowerbird использует его только для имитации нажатия ⌘V и никогда не считывает нажатия клавиш.";
+
+/* Settings */
+"Text Size" = "Размер текста";
+"Standard" = "Обычный";
+"Extra Large" = "Огромный";
+"Bowerbird Settings" = "Настройки Bowerbird";
+"General" = "Основные";
+"History" = "История";
+"About" = "О программе";
+"Open Panel Shortcut" = "Открыть панель";
+"Launch at Login" = "Открывать при входе";
+"Panel Size" = "Размер панели";
+"Shows about %lld rows" = "Примерное число строк: %lld";
+"Small" = "Маленький";
+"Medium" = "Средний";
+"Large" = "Большой";
+"Appearance" = "Оформление";
+"Light" = "Светлое";
+"Dark" = "Темное";
+"Language" = "Язык";
+"Follow System" = "Как в системе";
+"Accessibility Permission" = "Универсальный доступ";
+"Not granted. Enter only copies to the clipboard." = "Не разрешен. Можно только копировать в буфер обмена.";
+"Open System Settings" = "Открыть Системные настройки";
+"Clear History" = "Очистить историю";
+"Clear…" = "Очистить…";
+"Cancel" = "Отменить";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "Содержимое, скопированное в этих приложениях или отмеченное менеджерами паролей как конфиденциальное, не сохраняется.";
+"Remove" = "Удалить";
+"Not installed" = "Не установлено";
+"Version" = "Версия";
+"Data Folder" = "Папка данных";
+"Show in Finder" = "Показать в Finder";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "Не удалось загрузить историю буфера обмена";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbird начал новую историю. Исходный файл данных переименован в history.sqlite.broken.";
+"Clipboard history database could not be opened" = "Не удалось открыть историю буфера обмена";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "Возможно, уже запущена другая копия Bowerbird. Завершите её и откройте Bowerbird снова.";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "Убедитесь, что на диске есть свободное место и Bowerbird может записывать в свою папку в Application Support, затем откройте Bowerbird снова.";
+
+/* About */
+"Source Code" = "Исходный код";
+"Open on GitHub" = "Открыть на GitHub";
+"Unpin" = "Открепить";
+"Pin or Unpin" = "Закрепить или открепить";
+"Delete Item" = "Удалить запись";
+"Press keys…" = "Нажмите клавиши…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "Нажмите здесь, затем нажмите новые клавиши (буквы — только с ⌘, ⌥ или ⌃). Esc — отменить, ⌫ — удалить сочетание.";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "Нажмите здесь, затем нажмите сочетание с ⌘, ⌥ или ⌃. Esc — отменить, ⌫ — удалить сочетание.";
+"Restore Defaults" = "Восстановить исходные сочетания";
+"Paste as Plain Text" = "Вставить как обычный текст";
+
+/* Paste format choice */
+"Rich Text" = "Форматированный текст";
+"Web" = "Веб-страница";
+"Plain Text" = "Обычный текст";
+"Image" = "Изображение";
+"PDF" = "PDF";
+"File" = "Файл";
+"Path" = "Путь";
+"Formatted" = "С форматированием";
+"Text in Image" = "Текст с изображения";
+"Format" = "Формат";
+"Reveal in Finder" = "Показать в Finder";
+"Next Paste Format" = "Сменить формат";
+"%@ only · %@" = "Только «%@» · %@";
+
+/* Pause, capture toggles, menu bar icon */
+"Pause Recording" = "Приостановить запись";
+"Paused" = "Приостановлено";
+"Menu Bar Icon" = "Значок в строке меню";
+"Clipboard" = "Буфер обмена";
+"Scissors" = "Ножницы";
+"Paperclip" = "Скрепка";
+"Tray" = "Лоток";
+"Paste Path" = "Вставить путь";
+"Paste Text in Image" = "Вставить текст с изображения";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "Возобновить запись";
+"Text" = "Текст";
+"Images" = "Изображения";
+"Files" = "Файлы";
+"Recognizing…" = "Распознавание…";
+"No items" = "Записей нет";
+"Clear on Quit" = "Очищать при выходе";
+"Nothing is left behind after you quit" = "При выходе очищает историю и системный буфер обмена. Закреплённые остаются";
+"Panel Appears" = "Положение панели";
+"At the Pointer" = "У указателя";
+"Screen Center" = "По центру";
+"%lld lines" = "Строк: %lld";
+"%lld chars" = "Символов: %lld";
+
+/* Three retention tiers, move used items to top, other devices */
+"Only the path is stored, so this costs nothing" = "Сохраняется только расположение файла, а не сам файл";
+"Save From Other Devices" = "Записывать скопированное на iPhone и iPad";
+
+/* Empty state, pause bar, section titles, add app */
+"Paused. New copies are not being saved." = "Запись приостановлена. Новое содержимое не сохраняется.";
+"Nothing here yet" = "Записей пока нет";
+"Copy something and it will show up here" = "Скопированное содержимое появится здесь";
+"No matches for “%@”" = "Совпадений с «%@» не найдено";
+"Choose…" = "Выбрать…";
+
+/* Ignore regex, Return action, hint bar toggle, similar results */
+"Ignore" = "Исключения";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "Текст и пути к файлам, соответствующие любому из правил, не сохраняются. Правила используют регулярные выражения с учетом регистра. Добавьте (?i) в начало, чтобы не учитывать регистр.";
+"No patterns yet" = "Правил пока нет";
+"Add" = "Добавить";
+"Not a valid pattern, so it is not applied" = "Недопустимое регулярное выражение — правило отключено";
+"Close matches" = "Похожие результаты";
+"Add a pattern…" = "Добавить правило…";
+
+/* One row per type, merged clear */
+"Last 5 minutes" = "Последние 5 минут";
+"Last 15 minutes" = "Последние 15 минут";
+"Last hour" = "Последний час";
+
+/* Panel page, retention picker, pause state, clear confirmation */
+"Panel" = "Панель";
+"Space" = "Пробел";
+"Keep %lld days" = "%lld дн.";
+"Pinned items are kept. This cannot be undone." = "Закрепленные записи сохранятся. Это действие нельзя отменить.";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "Клавиши";
+"Recognize Text in Images" = "Распознавать текст на изображениях";
+
+/* Shortcuts can be removed */
+"None" = "Нет";
+"Remove Shortcut" = "Удалить сочетание клавиш";
+"Recording" = "Идёт запись";
+"Pause" = "Пауза";
+"Resume" = "Продолжить";
+
+/* Main menu (shown only while the Settings window is open) */
+"About Bowerbird" = "О программе Bowerbird";
+"Hide Bowerbird" = "Скрыть Bowerbird";
+"Edit" = "Правка";
+"Undo" = "Отменить";
+"Redo" = "Повторить";
+"Cut" = "Вырезать";
+"Select All" = "Выбрать все";
+"Window" = "Окно";
+"Close" = "Закрыть";
+"Minimize" = "Убрать в Dock";
+
+"Show shortcut hints at the bottom of the panel" = "Показывать подсказки сочетаний клавиш внизу панели";
+"Move used items to the top" = "Перемещать использованные элементы вверх";
+"All" = "Все";
+"Everything" = "Всё";
+"Clear Pinned Items" = "Удалить закреплённые";
+"Pinned: %lld" = "Закреплено: %lld";
+"No pinned items" = "Нет закреплённых элементов";
+"Clear all pinned items?" = "Удалить все закреплённые элементы?";
+"Clear Pinned" = "Удалить закреплённые";
+"This cannot be undone." = "Это действие нельзя отменить.";
+"Clear all clipboard history?" = "Удалить всю историю?";
+"Clear Recent" = "Очистить недавнюю историю";
+"Clear Everything" = "Удалить все записи";
+"Clear everything copied in the last 5 minutes?" = "Удалить записи за последние 5 минут?";
+"Clear everything copied in the last 15 minutes?" = "Удалить записи за последние 15 минут?";
+"Clear everything copied in the last hour?" = "Удалить записи за последний час?";
+"Ignored Apps" = "Игнорируемые приложения";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "Не удалось полностью очистить историю";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "Не удалось удалить часть истории или файлов. Проверьте свободное место на диске и права доступа к папкам, затем повторите попытку.";

@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # KeyboardShortcuts 3.x needs swift-tools-version 6.2, which ships with Xcode 26.
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build
+        run: swift build
+      - name: Test
+        run: swift test
+      # The tests run from the build folder, where every dependency's resources are at hand. The
+      # .app only carries what build-app.sh copies in, so put one together and see that it starts.
+      - name: Package
+        run: SIGN_IDENTITY=- scripts/build-app.sh
+      - name: Launch the packaged app
+        run: |
+          codesign --verify --strict build/Bowerbird.app
+          BOWERBIRD_DATA_DIR="$RUNNER_TEMP/bowerbird-data" build/Bowerbird.app/Contents/MacOS/Bowerbird &
+          pid=$!
+          sleep 8
+          kill -0 "$pid"
+          kill "$pid"
+
+  release-package:
+    needs: test
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install disk image builder
+        run: |
+          python3 -m venv "$RUNNER_TEMP/dmgbuild"
+          "$RUNNER_TEMP/dmgbuild/bin/python" -m pip install dmgbuild
+          echo "$RUNNER_TEMP/dmgbuild/bin" >> "$GITHUB_PATH"
+      - name: Build and verify universal release disk image
+        # CI has no signing certificate. make-dmg.sh retains certificate signing for releases.
+        env:
+          SIGN_IDENTITY: "-"
+        run: scripts/make-dmg.sh
+      - name: Launch the release app
+        run: |
+          BOWERBIRD_DATA_DIR="$RUNNER_TEMP/bowerbird-release-data" build/Bowerbird.app/Contents/MacOS/Bowerbird &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          sleep 8
+          kill -0 "$pid"

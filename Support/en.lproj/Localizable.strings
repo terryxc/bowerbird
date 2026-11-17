@@ -1,0 +1,207 @@
+/* Source language. Keys are the English strings themselves. */
+
+/* Menu bar */
+"Open Panel" = "Open Panel";
+"Settings…" = "Settings…";
+"Quit Bowerbird" = "Quit Bowerbird";
+"Accessibility Permission Needed…" = "Accessibility Permission Needed…";
+
+/* Panel */
+"Search clipboard history…" = "Search clipboard history…";
+"Enter only copies. Grant Accessibility to paste." = "Pasting needs Accessibility access. For now, items are only copied.";
+"Paste" = "Paste";
+"Copy" = "Copy";
+"Pin" = "Pin";
+"Delete" = "Delete";
+"Pinned" = "Pinned";
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"File no longer exists" = "File not found";
+"Image: %@×%@ (%@)" = "Image: %@×%@ (%@)";
+"File: %@" = "File: %@";
+"File: %@ and %lld more" = "Files: %@ and %lld more";
+
+/* The two small lines in the preview's bottom-right corner */
+"Copied Today %@" = "Copied today at %@";
+"Copied %@" = "Copied %@";
+
+/* Permissions */
+"Allow it and this goes into %@" = "Allow access and this goes straight into %@";
+"Allow it and this goes into your last app" = "Allow access and this goes straight into the app you came from";
+"It is copied already — you can switch back and press ⌘V yourself." = "It’s already copied — you can switch back and press ⌘V yourself.";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "That needs Accessibility — used only to send ⌘V, never to read your keystrokes.";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "Bowerbird not in the list? Show it in Finder, then drag it into the list.";
+"Allow…" = "Allow…";
+"Not Now" = "Not Now";
+"Bowerbird not in the list?" = "Bowerbird not in the list?";
+"Show it in Finder, then drag it into the list." = "Show it in Finder, then drag it into the list.";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "Bowerbird uses it only to send ⌘V, never to read your keystrokes.";
+
+/* Settings */
+"Text Size" = "Text Size";
+"Standard" = "Standard";
+"Extra Large" = "Extra Large";
+"Bowerbird Settings" = "Bowerbird Settings";
+"General" = "General";
+"History" = "History";
+"About" = "About";
+"Open Panel Shortcut" = "Open Panel";
+"Launch at Login" = "Launch at Login";
+"Panel Size" = "Panel Size";
+"Shows about %lld rows" = "Shows about %lld rows";
+"Small" = "Small";
+"Medium" = "Medium";
+"Large" = "Large";
+"Appearance" = "Appearance";
+"Light" = "Light";
+"Dark" = "Dark";
+"Language" = "Language";
+"Follow System" = "Follow System";
+"Accessibility Permission" = "Accessibility Permission";
+"Not granted. Enter only copies to the clipboard." = "Not allowed. Items can only be copied to the clipboard.";
+"Open System Settings" = "Open System Settings";
+"Clear History" = "Clear History";
+"Clear…" = "Clear…";
+"Cancel" = "Cancel";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "Content copied in these apps is not recorded. Content that password managers mark as sensitive is never recorded either.";
+"Remove" = "Remove";
+"Not installed" = "Not installed";
+"Version" = "Version";
+"Data Folder" = "Data Folder";
+"Show in Finder" = "Show in Finder";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "Clipboard history could not be loaded";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbird has started a new history. The original data file was renamed to history.sqlite.broken.";
+"Clipboard history database could not be opened" = "Clipboard history could not be opened";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "Another copy of Bowerbird may already be running. Quit it, then open Bowerbird again.";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "Make sure the disk has free space and that Bowerbird can write to its folder in Application Support, then open Bowerbird again.";
+
+/* About */
+"Source Code" = "Source Code";
+"Open on GitHub" = "Open on GitHub";
+"Unpin" = "Unpin";
+"Pin or Unpin" = "Pin or Unpin";
+"Delete Item" = "Delete Item";
+"Press keys…" = "Press keys…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut.";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut.";
+"Restore Defaults" = "Restore Default Shortcuts";
+"Paste as Plain Text" = "Paste as Plain Text";
+
+/* Paste format choice */
+"Rich Text" = "Rich Text";
+"Web" = "Web";
+"Plain Text" = "Plain Text";
+"Image" = "Image";
+"PDF" = "PDF";
+"File" = "File";
+"Path" = "Path";
+"Formatted" = "Formatted";
+"Text in Image" = "Text in Image";
+"Format" = "Format";
+"Reveal in Finder" = "Show in Finder";
+"Next Paste Format" = "Switch Format";
+"%@ only · %@" = "%@ only · %@";
+
+/* Pause, capture toggles, menu bar icon */
+"Pause Recording" = "Pause Recording";
+"Paused" = "Paused";
+"Menu Bar Icon" = "Menu Bar Icon";
+"Clipboard" = "Clipboard";
+"Scissors" = "Scissors";
+"Paperclip" = "Paperclip";
+"Tray" = "Tray";
+"Paste Path" = "Paste Path";
+"Paste Text in Image" = "Paste Text in Image";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "Resume Recording";
+"Text" = "Text";
+"Images" = "Images";
+"Files" = "Files";
+"Recognizing…" = "Recognizing…";
+"No items" = "No items";
+"Clear on Quit" = "Clear on Quit";
+"Nothing is left behind after you quit" = "Clears history and the system clipboard on quit. Pinned items stay.";
+"Panel Appears" = "Panel Position";
+"At the Pointer" = "At the Pointer";
+"Screen Center" = "Screen Center";
+"%lld lines" = "%lld lines";
+"%lld chars" = "%lld chars";
+
+/* Three retention periods, move to top when used, other devices */
+"Only the path is stored, so this costs nothing" = "Stores the file’s location, not the file";
+"Save From Other Devices" = "Record copies from your iPhone or iPad";
+
+/* Empty state, pause bar, section titles, add app */
+"Paused. New copies are not being saved." = "Paused. New copies aren’t being recorded.";
+"Nothing here yet" = "Nothing here yet";
+"Copy something and it will show up here" = "Copy something and it will show up here";
+"No matches for “%@”" = "No matches for “%@”";
+"Choose…" = "Choose…";
+
+/* Ignore regex, Return action, hint bar toggle, similar results */
+"Ignore" = "Ignore";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "Text and file paths that match any of these patterns aren’t recorded. Patterns are case-sensitive regular expressions; start one with (?i) to ignore case.";
+"No patterns yet" = "No patterns yet";
+"Add" = "Add";
+"Not a valid pattern, so it is not applied" = "Invalid regular expression, so this rule is off";
+"Close matches" = "Close matches";
+"Add a pattern…" = "Add a pattern…";
+
+/* One row per kind, merged clear */
+"Last 5 minutes" = "Last 5 Minutes";
+"Last 15 minutes" = "Last 15 Minutes";
+"Last hour" = "Last Hour";
+
+/* Panel page, retention pop-up, pause state, clear confirmation */
+"Panel" = "Panel";
+"Space" = "Space";
+"Keep %lld days" = "Keep %lld Days";
+"Pinned items are kept. This cannot be undone." = "Pinned items are kept. This cannot be undone.";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "Shortcuts";
+"Recognize Text in Images" = "Recognize Text in Images";
+
+/* Shortcut can be removed */
+"None" = "None";
+"Remove Shortcut" = "Remove Shortcut";
+"Recording" = "Recording";
+"Pause" = "Pause";
+"Resume" = "Resume";
+
+/* Main menu (shown only while the settings window is open) */
+"About Bowerbird" = "About Bowerbird";
+"Hide Bowerbird" = "Hide Bowerbird";
+"Edit" = "Edit";
+"Undo" = "Undo";
+"Redo" = "Redo";
+"Cut" = "Cut";
+"Select All" = "Select All";
+"Window" = "Window";
+"Close" = "Close";
+"Minimize" = "Minimize";
+
+"Show shortcut hints at the bottom of the panel" = "Show shortcut hints at the bottom of the panel";
+"Move used items to the top" = "Move used items to the top";
+"All" = "All";
+"Everything" = "Everything";
+"Clear Pinned Items" = "Clear Pinned Items";
+"Pinned: %lld" = "Pinned: %lld";
+"No pinned items" = "No pinned items";
+"Clear all pinned items?" = "Clear all pinned items?";
+"Clear Pinned" = "Clear Pinned";
+"This cannot be undone." = "This cannot be undone.";
+"Clear all clipboard history?" = "Clear all history?";
+"Clear Recent" = "Clear Recent History";
+"Clear Everything" = "Clear Everything";
+"Clear everything copied in the last 5 minutes?" = "Clear history from the last 5 minutes?";
+"Clear everything copied in the last 15 minutes?" = "Clear history from the last 15 minutes?";
+"Clear everything copied in the last hour?" = "Clear history from the last hour?";
+"Ignored Apps" = "Ignored Apps";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "History could not be fully cleared";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "Some history or files could not be removed. Check free disk space and folder permissions, then try again.";

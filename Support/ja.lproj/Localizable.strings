@@ -1,0 +1,209 @@
+/* ja */
+
+/* Source language. Keys are the English strings themselves. */
+
+/* Menu bar */
+"Open Panel" = "パネルを開く";
+"Settings…" = "設定…";
+"Quit Bowerbird" = "Bowerbirdを終了";
+"Accessibility Permission Needed…" = "アクセシビリティの許可が必要…";
+
+/* Panel */
+"Search clipboard history…" = "クリップボードの履歴を検索…";
+"Enter only copies. Grant Accessibility to paste." = "ペーストにはアクセシビリティの許可が必要です。現在はコピーのみ行います";
+"Paste" = "ペースト";
+"Copy" = "コピー";
+"Pin" = "ピン留め";
+"Delete" = "削除";
+"Pinned" = "ピン留め済み";
+"Today" = "今日";
+"Yesterday" = "昨日";
+"File no longer exists" = "ファイルが見つからない";
+"Image: %@×%@ (%@)" = "画像：%@×%@（%@）";
+"File: %@" = "ファイル：%@";
+"File: %@ and %lld more" = "ファイル：%@、ほか%lld件";
+
+/* The two small lines in the preview's bottom-right corner */
+"Copied Today %@" = "今日 %@にコピー";
+"Copied %@" = "%@にコピー";
+
+/* Permissions */
+"Allow it and this goes into %@" = "許可すると、そのまま「%@」に貼り付けます";
+"Allow it and this goes into your last app" = "許可すると、直前のアプリにそのまま貼り付けます";
+"It is copied already — you can switch back and press ⌘V yourself." = "コピーは完了しています。アプリに戻って ⌘V でも貼り付けられます。";
+"That needs Accessibility — used only to send ⌘V, never to read your keystrokes." = "これには「アクセシビリティ」の許可が必要です。⌘V を送るためだけに使い、キー入力を読み取ることはありません。";
+"Bowerbird not in the list? Show it in Finder, then drag it into the list." = "リストに Bowerbird がない場合は、Finder で表示してリストにドラッグしてください。";
+"Allow…" = "許可…";
+"Not Now" = "今はしない";
+"Bowerbird not in the list?" = "リストに Bowerbird がない場合";
+"Show it in Finder, then drag it into the list." = "Finder で表示し、リストにドラッグしてください。";
+"Bowerbird uses it only to send ⌘V, never to read your keystrokes." = "⌘V を送るためだけに使い、キー入力を読み取ることはありません。";
+
+/* Settings */
+"Text Size" = "文字サイズ";
+"Standard" = "標準";
+"Extra Large" = "特大";
+"Bowerbird Settings" = "Bowerbirdの設定";
+"General" = "一般";
+"History" = "履歴";
+"About" = "情報";
+"Open Panel Shortcut" = "パネルを開く";
+"Launch at Login" = "ログイン時に起動";
+"Panel Size" = "パネルのサイズ";
+"Shows about %lld rows" = "約%lld行を表示";
+"Small" = "小";
+"Medium" = "中";
+"Large" = "大";
+"Appearance" = "外観";
+"Light" = "ライト";
+"Dark" = "ダーク";
+"Language" = "言語";
+"Follow System" = "システムと同じ";
+"Accessibility Permission" = "アクセシビリティの許可";
+"Not granted. Enter only copies to the clipboard." = "未許可。クリップボードへのコピーのみ可能";
+"Open System Settings" = "システム設定を開く";
+"Clear History" = "履歴を消去";
+"Clear…" = "消去…";
+"Cancel" = "キャンセル";
+"Copies made in these apps are not recorded. Items flagged by password managers are always skipped." = "これらのアプリでコピーした内容は記録されません。パスワードマネージャによって機密情報としてマークされた内容も記録されません。";
+"Remove" = "削除";
+"Not installed" = "未インストール";
+"Version" = "バージョン";
+"Data Folder" = "データフォルダ";
+"Show in Finder" = "Finderに表示";
+
+/* Launch */
+"Clipboard history database was rebuilt" = "クリップボードの履歴を読み込めませんでした";
+"The old database could not be opened and was renamed to history.sqlite.broken." = "Bowerbirdは新しい履歴を作成しました。元のデータファイルはhistory.sqlite.brokenに名前が変更されました。";
+"Clipboard history database could not be opened" = "クリップボード履歴を開けません";
+"Another copy of Bowerbird may be running. Quit it and open Bowerbird again." = "別の Bowerbird がすでに起動している可能性があります。終了してから、もう一度 Bowerbird を開いてください。";
+"Check that the disk has free space and that the Bowerbird folder in Application Support can be written to, then open Bowerbird again." = "ディスクに空き容量があり、Bowerbird が「Application Support」内の自分のフォルダに書き込めることを確認してから、もう一度 Bowerbird を開いてください。";
+
+/* About */
+"Source Code" = "ソースコード";
+"Open on GitHub" = "GitHubで表示";
+"Unpin" = "ピン留め解除";
+"Pin or Unpin" = "ピン留め／ピン留め解除";
+"Delete Item" = "項目を削除";
+"Press keys…" = "ショートカットキーを入力…";
+"Click, then press the new keys (letters need ⌘, ⌥ or ⌃). Esc cancels, ⌫ removes the shortcut." = "クリックしてから新しいキーを押します（文字キーは ⌘、⌥、⌃ のいずれかと組み合わせます）。Escでキャンセル、⌫でショートカットを削除。";
+"Click, then press a combination with ⌘, ⌥ or ⌃. Esc cancels, ⌫ removes the shortcut." = "クリックしてから、⌘、⌥、⌃のいずれかを含む組み合わせを押します。Escでキャンセル、⌫でショートカットを削除。";
+"Restore Defaults" = "デフォルトのショートカットに戻す";
+"Paste as Plain Text" = "標準テキストとしてペースト";
+
+/* Paste format choice */
+"Rich Text" = "リッチテキスト";
+"Web" = "Webページ";
+"Plain Text" = "標準テキスト";
+"Image" = "画像";
+"PDF" = "PDF";
+"File" = "ファイル";
+"Path" = "パス";
+"Formatted" = "書式付き";
+"Text in Image" = "画像内のテキスト";
+"Format" = "フォーマット";
+"Reveal in Finder" = "Finderに表示";
+"Next Paste Format" = "フォーマットを切り替え";
+"%@ only · %@" = "%@のみ · %@";
+
+/* Pause, capture toggles, menu bar icon */
+"Pause Recording" = "記録を一時停止";
+"Paused" = "一時停止中";
+"Menu Bar Icon" = "メニューバーアイコン";
+"Clipboard" = "クリップボード";
+"Scissors" = "はさみ";
+"Paperclip" = "クリップ";
+"Tray" = "トレイ";
+"Paste Path" = "パスをペースト";
+"Paste Text in Image" = "画像内のテキストをペースト";
+
+/* Clear recent, clear on quit, panel position, screenshot capture */
+"Resume Recording" = "記録を再開";
+"Text" = "テキスト";
+"Images" = "画像";
+"Files" = "ファイル";
+"Recognizing…" = "認識中…";
+"No items" = "項目はありません";
+"Clear on Quit" = "終了時に消去";
+"Nothing is left behind after you quit" = "終了時に履歴とシステムのクリップボードを消去。固定した項目は残ります";
+"Panel Appears" = "パネルの位置";
+"At the Pointer" = "ポインタの位置";
+"Screen Center" = "画面の中央";
+"%lld lines" = "%lld行";
+"%lld chars" = "%lld文字";
+
+/* Three retention periods, move to top when used, other devices */
+"Only the path is stored, so this costs nothing" = "ファイルの場所のみを保存。ファイル自体は保存しない";
+"Save From Other Devices" = "iPhone や iPad でコピーした内容を記録";
+
+/* Empty state, pause bar, section titles, add app */
+"Paused. New copies are not being saved." = "記録を一時停止中です。新しくコピーした内容は記録されません。";
+"Nothing here yet" = "履歴なし";
+"Copy something and it will show up here" = "何かをコピーすると、ここに表示されます";
+"No matches for “%@”" = "“%@”に一致する項目なし";
+"Choose…" = "選択…";
+
+/* Ignore regex, Return action, hint bar toggle, similar results */
+"Ignore" = "除外";
+"Text or file paths matching any of these patterns are not recorded. Regular expressions, case-sensitive; start with (?i) to ignore case." = "いずれかのルールに一致するテキストやファイルパスは記録しない。ルールには正規表現を使用し、大文字と小文字を区別。先頭に(?i)を付けると区別しない。";
+"No patterns yet" = "ルールなし";
+"Add" = "追加";
+"Not a valid pattern, so it is not applied" = "正規表現が無効なため、このルールは未適用";
+"Close matches" = "類似する結果";
+"Add a pattern…" = "ルールを追加…";
+
+/* One row per kind, merged clear */
+"Last 5 minutes" = "過去5分間";
+"Last 15 minutes" = "過去15分間";
+"Last hour" = "過去1時間";
+
+/* Panel page, retention pop-up, pause state, clear confirmation */
+"Panel" = "パネル";
+"Space" = "スペース";
+"Keep %lld days" = "%lld日間保存";
+"Pinned items are kept. This cannot be undone." = "ピン留めした項目は保持されます。この操作は取り消せません。";
+
+/* Shortcuts page, History page sections */
+"Shortcuts" = "ショートカット";
+"Recognize Text in Images" = "画像内のテキストを認識";
+
+/* Shortcut can be removed */
+"None" = "なし";
+"Remove Shortcut" = "ショートカットを削除";
+"Recording" = "記録中";
+"Pause" = "一時停止";
+"Resume" = "再開";
+
+/* Main menu (shown only while the settings window is open) */
+"About Bowerbird" = "Bowerbirdについて";
+"Hide Bowerbird" = "Bowerbirdを非表示";
+"Edit" = "編集";
+"Undo" = "取り消す";
+"Redo" = "やり直す";
+"Cut" = "カット";
+"Select All" = "すべてを選択";
+"Window" = "ウインドウ";
+"Close" = "閉じる";
+"Minimize" = "しまう";
+
+"Show shortcut hints at the bottom of the panel" = "パネルの下部にショートカットのヒントを表示";
+"Move used items to the top" = "使用した項目を先頭に移動";
+"All" = "すべて";
+"Everything" = "すべて";
+"Clear Pinned Items" = "固定した項目を消去";
+"Pinned: %lld" = "固定済み %lld 件";
+"No pinned items" = "固定した項目はありません";
+"Clear all pinned items?" = "固定した項目をすべて消去しますか？";
+"Clear Pinned" = "固定を消去";
+"This cannot be undone." = "この操作は取り消せません。";
+"Clear all clipboard history?" = "履歴をすべて消去しますか？";
+"Clear Recent" = "最近の履歴を消去";
+"Clear Everything" = "すべての履歴を消去";
+"Clear everything copied in the last 5 minutes?" = "過去5分間の履歴を消去してもよろしいですか？";
+"Clear everything copied in the last 15 minutes?" = "過去15分間の履歴を消去してもよろしいですか？";
+"Clear everything copied in the last hour?" = "過去1時間の履歴を消去してもよろしいですか？";
+"Ignored Apps" = "無視するアプリ";
+
+/* History cleanup failures */
+"History could not be fully cleared" = "履歴を完全に消去できませんでした";
+"Some history or files could not be removed. Check free disk space and folder permissions, then try again." = "一部の履歴またはファイルを削除できませんでした。ディスクの空き容量とフォルダのアクセス権を確認して、もう一度お試しください。";

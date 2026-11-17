@@ -1,0 +1,48 @@
+name: Bug report
+description: Something did not work the way the README says it should.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Bowerbird version
+      description: Settings → About, or the dmg file name.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: 15.1 on Apple silicon
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: Which app you copied from, what kind of content, which keys you pressed.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: dropdown
+    id: accessibility
+    attributes:
+      label: Is the Accessibility permission granted?
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+    validations:
+      required: true
